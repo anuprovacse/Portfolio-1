@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:ital,wght@0,100;1,200&display=swap');
+
+
+body{
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+/* background-color: rgb(132, 216, 235);
+
+background-repeat: no-repeat;
+background-size: 1350px 550px;
+background-attachment: scroll; */
+
+}
+
+.bannar-container{
+    background-size: cover;
+    width: 100%;
+    /* min-height: 50vh; */
+    position: relative;
+    color: rgb(24, 12, 12);
+    text-shadow: 2px 2px 2px rgb(0, 0, 0, .2);
+    padding: 200px;
+
+}
+
+@media (max-width: 600px){
+    .bannar-container{
+    min-height: 30vh;
+    min-width: 20vh; }
+}
+.header{
+    margin: auto;
+    font-style: italic;
+}
+.img-fluid{
+    height: 500px;
+    width: 1300px;
+}
+
+.navbar{
+    background-color: #0ba8c7;
+    position: sticky;
+    top: 0;
+    color: rgb(247, 226, 223);
+
+}
+.container-fluid{
+    color: antiquewhite;
+    font: bold
+}
