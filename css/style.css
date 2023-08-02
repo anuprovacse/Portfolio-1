@@ -2,49 +2,96 @@
 
 
 body{
-font-family: 'Open Sans', sans-serif;
 font-family: 'Poppins', sans-serif;
-/* background-color: rgb(132, 216, 235);
-
-background-repeat: no-repeat;
-background-size: 1350px 550px;
-background-attachment: scroll; */
-
 }
 
 .bannar-container{
     background-size: cover;
-    width: 100%;
-    /* min-height: 50vh; */
     position: relative;
     color: rgb(24, 12, 12);
     text-shadow: 2px 2px 2px rgb(0, 0, 0, .2);
     padding: 200px;
+    font-family: sans-serif;
 
 }
 
-@media (max-width: 600px){
+/* @media (max-width: 600px){
     .bannar-container{
     min-height: 30vh;
-    min-width: 20vh; }
-}
+    min-width: 40%; }
+} */
 .header{
     margin: auto;
     font-style: italic;
+    /* position: relative; */
+}
+
+
+.navbar-container{
+ background-color: #024751;
+   position: sticky;
+   top: 0px;
+    color: rgb(246, 234, 234);
+    font-family: sans-serif;
+    z-index: 2;
+
+}
+
+.about-container{
+    background-color: #01ABD4;
+    font-family: sans-serif;
+    color: rgb(55, 70, 55);
+}
+
+.education-container{
+    background-color: rgb(166, 231, 227);
+}
+
+.ed-color{
+    font-family: sans-serif;
+    color: brown;
+}
+
+.circle{
+   background-color: rgb(66, 52, 52); 
+   height: 140px;
+   width: 140px;
+   border-radius:70px;
+   color: antiquewhite;
+}
+
+.card-body{
+    font-family: sans-serif;
+}
+
+.project-container{
+background-color: #01ABD4;
+}
+
+.pd-color{
+    font-family: sans-serif;
+    color: rgb(237, 230, 230);
+}
+.p-img{
+    color: antiquewhite;
+    font-family: sans-serif;
+    font-size: large;
+    margin-top: 7px;
 }
 .img-fluid{
-    height: 500px;
-    width: 1300px;
+    height: 260px;
+    width: 300px;
 }
 
-.navbar{
-    background-color: #0ba8c7;
-    position: sticky;
-    top: 0;
-    color: rgb(247, 226, 223);
-
+#publication{
+    font-family: sans-serif;
+    margin: 50px;
+    text-shadow: 2px 2px 2px rgba(250, 85, 85, 0.2);
 }
-.container-fluid{
-    color: antiquewhite;
-    font: bold
+.jobexperience-container{
+    background-color: rgb(166, 231, 227);
+}
+
+.activity-container{
+    background-color: #06809e;
 }
