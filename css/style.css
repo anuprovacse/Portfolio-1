@@ -94,4 +94,62 @@ background-color: #01ABD4;
 
 .activity-container{
     background-color: #06809e;
+    font-family: sans-serif;
+}
+
+.contact-ccontainer{
+   font-family: sans-serif;
+    background-color: rgb(166, 231, 227);
+}
+
+.span-1{
+    font-size: 72px;
+    color: rgb(220, 205, 205);
+    background-color: rgb(66, 52, 52);
+}
+
+.border{
+    margin: 5px;
+    border-radius: 10px;
+}
+.c-ptag{
+    background-color: aliceblue;
+
+}
+
+.button{
+    background-color: rgb(37, 94, 229);
+    color: rgb(237, 209, 209); 
+    margin: 10px;
+    padding: 10px;
+    border: rgb(179, 210, 237);
+    border-radius: 7px;
+}
+
+.button:hover{
+    background-color: rgb(212, 14, 14);
+   
+}
+
+.footer{
+    
+    background-color: rgb(66, 138, 151);
+    color: aliceblue;
+
+}
+
+.circle-icon{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: rgb(246, 243, 240);
+    text-align: center;
+    font-size: 40px;
+    color: dodgerblue;
+}
+
+.circle-icon:hover{
+    background-color: rgb(20, 27, 29);
+    color: rgb(217, 224, 232);
 }
